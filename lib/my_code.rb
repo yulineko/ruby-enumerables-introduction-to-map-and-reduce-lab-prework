@@ -46,4 +46,7 @@ def reduce_to_total(source_array, starting_point)
   while i < source_array.length do
     return false if !source_array[i]
     i += 1
+  end
+  return true
 end
+
